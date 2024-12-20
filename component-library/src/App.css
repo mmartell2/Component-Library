@@ -1,42 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  background-color: #333;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  background-color: wheat;
+  border: black 3px solid;
+  width: 90%;
+  margin:  30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 0 5px white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+main section {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  background-color: rgb(119, 119, 111);
+  border-radius: 10px;
+  border: 3px solid black;
+  width: 90%;
+  box-shadow: 0 0 5px white;
 }
 
-.card {
-  padding: 2em;
+main section h1 {
+  font-size: 2rem;
+  padding: 1em;
+  font-family: "DM Sans", sans-serif;
+  color: lightgoldenrodyellow
 }
 
-.read-the-docs {
-  color: #888;
+.badge {
+  width: fit-content;
+  padding: .5em 1em;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.pilled {
+  border-radius: 20px;
+}
+
+.squared {
+  border-radius: 3px;
 }
