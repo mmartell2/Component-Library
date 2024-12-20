@@ -35,6 +35,7 @@ main section {
   border: 3px solid black;
   width: 90%;
   box-shadow: 0 0 5px white;
+  gap: 15px;
 }
 
 main section h1 {
@@ -48,7 +49,6 @@ main section h1 {
   width: fit-content;
   padding: .5em 1em;
   font-size: 1.2rem;
-  margin-top: 5px;
 }
 
 .pilled {
@@ -58,3 +58,21 @@ main section h1 {
 .squared {
   border-radius: 3px;
 }
+
+/* banner css */
+
+.banner-container {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+.banner-container div h1 {
+  font-size: 1rem;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
